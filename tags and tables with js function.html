@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>The focus() method</title>
+<script>
+function output()
+{
+	document.write("Hello ", form1.visitor.value)
+	document.write("<br>Welcome to my <b>interactive</b> page")
+}
+</script>
+</head>
+
+<body>
+<table border="1">
+<tr>
+<th>header1</th>
+<th>header2</th>
+</tr>
+<tr>
+<td> row 1, cell 1</td>
+<td> row 1, cell 2</td>
+</tr>
+<tr>
+<td> row 2, cell 1</td>
+<td> row 2, cell 2</td>
+</tr>
+</table>
+
+<script>document.write("<h2>Using write() to write HTML</h2>")</script>
+<form name = form1>
+<input type = text name = visitor>
+<p>
+<input type = button value = "Click Me!" onClick = "output()">
+
+</form>
+</body>
+</html>

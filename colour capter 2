@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Document properties</title>
+<script>
+function blackwhite()
+{
+document.bgColor = "black"
+document.fgColor = "white"
+}
+function colour()
+{
+document.bgColor = "red"
+document.fgColor = "yellow"
+}
+function original()
+{
+document.bgColor = "white"
+document.fgColor = "black"
+}
+</script>
+</head>
+<body bgcolor = white text = black>
+<h1>Document properties</h1>
+<h2>Click a button to change the colour scheme</h2>
+<form name = myForm>
+<input type = button value = "B/W" onClick = "blackwhite()">
+<p>
+<input type = button value = "colour" onClick = "colour()">
+<p>
+<input type = button value = "original" onClick = "original()">
+</form>
+</html>
